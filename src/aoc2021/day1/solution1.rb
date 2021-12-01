@@ -5,7 +5,7 @@ count = 0
 
 input.each_with_index do |num, idx|
   next if idx == endpoint
-  count += 1 if num < input[idx+1]
+  count += 1 if num < input[idx + 1]
 end
 
 count
